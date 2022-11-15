@@ -47,9 +47,13 @@ namespace UniversitaDizionario
             Console.WriteLine(uni[DIPARTIMENTI.BIOLOGIA][mat3][0].Voto);
             Console.WriteLine(uni[DIPARTIMENTI.MEDICINA][mat4][0].Voto);
 
-           
-   
-             
+            Console.WriteLine("\n--- Dipartimenti ---");
+            foreach (var item in uni)
+            {
+                Console.WriteLine(item.Key);
+            }
+
+
 
 
 
